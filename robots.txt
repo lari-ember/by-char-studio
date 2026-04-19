@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lari-ember.github.io/by-char-studio/sitemap.xml

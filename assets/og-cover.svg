@@ -69,7 +69,7 @@
   <text x="120" y="520" font-family="Arial,sans-serif" font-size="26" fill="#8898aa">Games · Modelos 3D · Dev Freelance</text>
 
   <!-- URL -->
-  <text x="120" y="585" font-family="Arial,sans-serif" font-size="18" fill="#4a5568">estudio.bychar@gmail.com  ·  @by.char.studio</text>
+  <text x="120" y="585" font-family="Arial,sans-serif" font-size="18" fill="#4a5568">bycharstudio@gmail.com  ·  @by.char.studio</text>
 
   <!-- Accent line -->
   <rect x="120" y="380" width="80" height="4" rx="2" fill="url(#accent)"/>
