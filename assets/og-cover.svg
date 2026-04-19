@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.07" stroke="#7c3aed" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+    <line x1="1140" y1="0" x2="1140" y2="630"/>
+  </g>
+
+  <!-- Hexagon logo mark -->
+  <polygon points="120,200 200,156 280,200 280,288 200,332 120,288" fill="none" stroke="#7c3aed" stroke-width="4" opacity="0.8"/>
+  <text x="200" y="270" font-family="Arial Black,Arial,sans-serif" font-size="48" font-weight="900" fill="#9d5df5" text-anchor="middle">BC</text>
+
+  <!-- Eyebrow -->
+  <text x="120" y="390" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#06b6d4" letter-spacing="3">✦  ESTÚDIO INDEPENDENTE</text>
+
+  <!-- Main Title -->
+  <text x="120" y="460" font-family="Arial Black,Arial,sans-serif" font-size="80" font-weight="900" fill="white" letter-spacing="-2">By</text>
+  <text x="250" y="460" font-family="Arial Black,Arial,sans-serif" font-size="80" font-weight="900" letter-spacing="-2">
+    <tspan fill="url(#accent)">Char</tspan>
+    <tspan fill="white"> Studio</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="120" y="520" font-family="Arial,sans-serif" font-size="26" fill="#8898aa">Games · Modelos 3D · Dev Freelance</text>
+
+  <!-- URL -->
+  <text x="120" y="585" font-family="Arial,sans-serif" font-size="18" fill="#4a5568">estudio.bychar@gmail.com  ·  @by.char.studio</text>
+
+  <!-- Accent line -->
+  <rect x="120" y="380" width="80" height="4" rx="2" fill="url(#accent)"/>
+</svg>

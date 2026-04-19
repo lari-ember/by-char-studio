@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary SEO -->
+    <title>By Char Studio | Games, Modelos 3D &amp; Dev Freelance</title>
+    <meta
+      name="description"
+      content="By Char Studio é um estúdio independente de games e serviços criativos. Criamos games, modelos 3D Voxel, assets e oferecemos serviços de dev freelance. Entre em contato!"
+    />
+    <meta
+      name="keywords"
+      content="by char studio, games indie, modelos 3D, voxel, assets unity, dev freelance, comissão 3D, site institucional, python, angular"
+    />
+    <meta name="author" content="By Char Studio — Larissa Ember &amp; Wemile Oliveira" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lari-ember.github.io/by-char-studio/" />
+
+    <!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="By Char Studio" />
+    <meta property="og:title" content="By Char Studio | Games, Modelos 3D &amp; Dev Freelance" />
+    <meta
+      property="og:description"
+      content="Estúdio independente criando games, assets 3D Voxel e oferecendo serviços de dev freelance. Feito por Larissa Ember &amp; Wemile Oliveira."
+    />
+    <meta property="og:url" content="https://lari-ember.github.io/by-char-studio/" />
+    <!-- og:image should be a 1200×630 PNG/JPEG for best social media support.
+         Replace assets/og-cover.svg with a raster image when available. -->
+    <meta
+      property="og:image"
+      content="https://lari-ember.github.io/by-char-studio/assets/og-cover.svg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="By Char Studio | Games, Modelos 3D &amp; Dev Freelance" />
+    <meta
+      name="twitter:description"
+      content="Estúdio independente criando games, assets 3D Voxel e oferecendo serviços de dev freelance."
+    />
+    <meta
+      name="twitter:image"
+      content="https://lari-ember.github.io/by-char-studio/assets/og-cover.svg"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <!-- apple-touch-icon: replace with a 180×180 PNG for best iOS compatibility -->
+    <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "By Char Studio",
+        "url": "https://lari-ember.github.io/by-char-studio/",
+        "logo": "https://lari-ember.github.io/by-char-studio/assets/og-cover.png",
+        "description": "Estúdio independente de games e serviços criativos. Criamos games, modelos 3D Voxel e oferecemos serviços de dev freelance.",
+        "email": "estudio.bychar@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/by.char.studio",
+          "https://itch.io/profile/c4mb3rly2004"
+        ],
+        "founder": [
+          { "@type": "Person", "name": "Larissa Ember" },
+          { "@type": "Person", "name": "Wemile Oliveira" }
+        ],
+        "knowsAbout": [
+          "Desenvolvimento de Games",
+          "Modelagem 3D Voxel",
+          "Dev Freelance",
+          "Python",
+          "Angular"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- Skip to main content (accessibility) -->
+    <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+
+    <!-- ═══════════════════════════════════ HEADER / NAV ═══════════════════════════════════ -->
+    <header class="site-header" role="banner">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a href="#hero" class="nav__logo" aria-label="By Char Studio — Início">
+          <span class="nav__logo-icon" aria-hidden="true">⬡</span>
+          <span class="nav__logo-text">By<strong>Char</strong>Studio</span>
+        </a>
+
+        <button
+          class="nav__hamburger"
+          id="hamburger"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+          aria-label="Abrir menu de navegação"
+        >
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+
+        <ul class="nav__menu" id="nav-menu" role="list">
+          <li><a class="nav__link" href="#projects">Projetos</a></li>
+          <li><a class="nav__link" href="#services">Serviços</a></li>
+          <li><a class="nav__link" href="#about">Sobre</a></li>
+          <li>
+            <a class="nav__link nav__link--cta" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ═══════════════════════════════════ MAIN ═══════════════════════════════════ -->
+    <main id="main">
+
+      <!-- ─────────────────────────── HERO ─────────────────────────── -->
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__grid"></div>
+          <div class="hero__glow hero__glow--1"></div>
+          <div class="hero__glow hero__glow--2"></div>
+        </div>
+        <div class="container hero__content">
+          <p class="hero__eyebrow">✦ Estúdio Independente</p>
+          <h1 id="hero-title" class="hero__title">
+            By<span class="accent">Char</span><br />Studio
+          </h1>
+          <p class="hero__subtitle">
+            Games. Modelos 3D. Dev Freelance.<br />
+            <em>Criatividade que entrega resultados.</em>
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Ver Projetos</a>
+            <a href="#contact" class="btn btn--ghost">Fale Conosco</a>
+          </div>
+          <div class="hero__social" aria-label="Redes sociais">
+            <a
+              href="https://www.instagram.com/by.char.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram do By Char Studio"
+              class="social-icon"
+            >
+              <!-- Instagram SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+              Instagram
+            </a>
+            <a
+              href="https://itch.io/profile/c4mb3rly2004"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil no Itch.io"
+              class="social-icon"
+            >
+              <!-- Itch.io icon (simplified) -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 15V9l4 3 4-3v6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+              Itch.io
+            </a>
+          </div>
+        </div>
+        <div class="hero__scroll-hint" aria-hidden="true">
+          <span>↓</span>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────── PROJECTS ─────────────────────────── -->
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">🎮 Games</span>
+            <h2 id="projects-title" class="section__title">Nossos Projetos</h2>
+            <p class="section__desc">
+              Exploramos mecânicas criativas, mundos 3D e experiências únicas. Confira o que estamos criando.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <article class="card card--project" aria-label="Projeto: Em desenvolvimento">
+              <div class="card__badge">Em breve</div>
+              <div class="card__visual card__visual--1" aria-hidden="true">
+                <span class="card__icon">🏰</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Projeto Alpha</h3>
+                <p class="card__desc">
+                  Um jogo de aventura com estética Voxel. Exploração, puzzles e uma narrativa imersiva. Mais detalhes em breve!
+                </p>
+                <ul class="card__tags" aria-label="Tecnologias">
+                  <li class="tag">Voxel</li>
+                  <li class="tag">Puzzle</li>
+                  <li class="tag">Unity</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Project Card 2 -->
+            <article class="card card--project" aria-label="Assets 3D disponíveis na Itch.io">
+              <div class="card__visual card__visual--2" aria-hidden="true">
+                <span class="card__icon">📦</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Asset Packs 3D</h3>
+                <p class="card__desc">
+                  Pacotes de modelos 3D Voxel prontos para uso em suas próprias produções. Disponíveis na nossa loja.
+                </p>
+                <ul class="card__tags" aria-label="Tecnologias">
+                  <li class="tag">Voxel</li>
+                  <li class="tag">3D Assets</li>
+                  <li class="tag">MagicaVoxel</li>
+                </ul>
+                <a
+                  href="https://itch.io/profile/c4mb3rly2004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn--outline btn--sm"
+                  aria-label="Ver assets na Itch.io"
+                >Ver na Itch.io →</a>
+              </div>
+            </article>
+
+            <!-- Project Card 3 -->
+            <article class="card card--project" aria-label="Projeto em desenvolvimento">
+              <div class="card__badge card__badge--wip">WIP</div>
+              <div class="card__visual card__visual--3" aria-hidden="true">
+                <span class="card__icon">🌌</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Projeto Beta</h3>
+                <p class="card__desc">
+                  Explorando novas mecânicas e shaders customizados. Acompanhe nosso progresso no Instagram e devlogs.
+                </p>
+                <ul class="card__tags" aria-label="Tecnologias">
+                  <li class="tag">Shaders</li>
+                  <li class="tag">Blueprints</li>
+                  <li class="tag">Unreal</li>
+                </ul>
+                <a
+                  href="https://www.instagram.com/by.char.studio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn--outline btn--sm"
+                  aria-label="Acompanhar no Instagram"
+                >Acompanhar →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────── SERVICES ─────────────────────────── -->
+      <section id="services" class="section section--alt" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">💼 Freelance</span>
+            <h2 id="services-title" class="section__title">Nossos Serviços</h2>
+            <p class="section__desc">
+              Transformamos sua ideia em realidade. Escolha a categoria que mais se encaixa na sua necessidade.
+            </p>
+          </div>
+
+          <div class="services-grid">
+
+            <!-- Service 1 -->
+            <article class="card card--service" aria-labelledby="svc-1-title">
+              <div class="card__service-icon" aria-hidden="true">🎲</div>
+              <h3 id="svc-1-title" class="card__title">Games &amp; Assets</h3>
+              <p class="card__desc">
+                Pacotes de modelos 3D Voxel, shaders personalizados e blueprints prontos para usar na Unity ou Unreal Engine.
+              </p>
+              <ul class="card__list" aria-label="O que está incluso">
+                <li>✓ Modelos 3D Voxel (personagens, cenários, props)</li>
+                <li>✓ Shaders personalizados</li>
+                <li>✓ Blueprints para Unreal Engine</li>
+                <li>✓ Entrega em formatos Unity/Unreal</li>
+              </ul>
+              <div class="card__footer">
+                <span class="card__where">Onde encontrar:</span>
+                <a
+                  href="https://itch.io/profile/c4mb3rly2004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-pill"
+                  aria-label="Ver assets na Itch.io"
+                >Itch.io</a>
+              </div>
+            </article>
+
+            <!-- Service 2 -->
+            <article class="card card--service card--service--featured" aria-labelledby="svc-2-title">
+              <div class="card__badge card__badge--popular">Mais pedido</div>
+              <div class="card__service-icon" aria-hidden="true">🗿</div>
+              <h3 id="svc-2-title" class="card__title">Commissions 3D</h3>
+              <p class="card__desc">
+                Modelagem de personagens, criaturas ou cenários sob encomenda — perfeito para games, animações e NFTs.
+              </p>
+              <ul class="card__list" aria-label="O que está incluso">
+                <li>✓ Modelagem de personagens customizados</li>
+                <li>✓ Cenários e ambientes 3D</li>
+                <li>✓ Rigging básico disponível</li>
+                <li>✓ Revisões incluídas</li>
+              </ul>
+              <div class="card__footer">
+                <a href="#contact" class="btn btn--primary btn--sm">Solicitar orçamento</a>
+              </div>
+            </article>
+
+            <!-- Service 3 -->
+            <article class="card card--service" aria-labelledby="svc-3-title">
+              <div class="card__service-icon" aria-hidden="true">💻</div>
+              <h3 id="svc-3-title" class="card__title">Dev Freelance</h3>
+              <p class="card__desc">
+                Desenvolvemos sites institucionais modernos, automações em Python e aplicações web com Angular.
+              </p>
+              <ul class="card__list" aria-label="O que está incluso">
+                <li>✓ Sites institucionais (Angular / HTML)</li>
+                <li>✓ Automação e scraping com Python</li>
+                <li>✓ APIs e integrações</li>
+                <li>✓ Manutenção e suporte</li>
+              </ul>
+              <div class="card__footer">
+                <a href="#contact" class="btn btn--outline btn--sm">Solicitar orçamento</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────── ABOUT ─────────────────────────── -->
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">👩‍💻 Quem somos</span>
+            <h2 id="about-title" class="section__title">O Estúdio</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about__text">
+              <p>
+                O <strong>By Char Studio</strong> é um estúdio independente fundado por <strong>Larissa Ember</strong> e <strong>Wemile Oliveira</strong> — duas desenvolvedoras apaixonadas por games, arte 3D e tecnologia.
+              </p>
+              <p>
+                Combinamos habilidades em <em>desenvolvimento de games</em>, <em>modelagem 3D Voxel</em> e <em>programação</em> para criar projetos criativos e oferecer serviços freelance de alto nível.
+              </p>
+              <p>
+                Acreditamos que <em>código e arte caminham juntos</em> — e é essa visão que guia cada projeto que entregamos.
+              </p>
+              <a href="#contact" class="btn btn--primary" style="margin-top:1.5rem; display:inline-flex;">Trabalhe conosco</a>
+            </div>
+            <div class="about__team" aria-label="Equipe do estúdio">
+              <div class="team-card">
+                <div class="team-card__avatar" aria-hidden="true">
+                  <span>LE</span>
+                </div>
+                <div class="team-card__info">
+                  <strong>Larissa Ember</strong>
+                  <span>Dev &amp; Game Designer</span>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="team-card__avatar team-card__avatar--2" aria-hidden="true">
+                  <span>WO</span>
+                </div>
+                <div class="team-card__info">
+                  <strong>Wemile Oliveira</strong>
+                  <span>3D Artist &amp; Dev</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────────── CONTACT ─────────────────────────── -->
+      <section id="contact" class="section section--alt" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">📬 Contato</span>
+            <h2 id="contact-title" class="section__title">Vamos Conversar?</h2>
+            <p class="section__desc">
+              Tem um projeto em mente ou quer contratar um serviço? Fale com a gente por qualquer um dos canais abaixo.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- WhatsApp (primary CTA) -->
+            <a
+              href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1%2C+vim+pelo+site+do+By+Char+Studio+e+gostaria+de+saber+mais+sobre+os+servi%C3%A7os!"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card contact-card--whatsapp"
+              aria-label="Conversar no WhatsApp — abre o WhatsApp em nova aba"
+            >
+              <!-- WhatsApp SVG -->
+              <svg class="contact-card__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <div>
+                <strong>WhatsApp Business</strong>
+                <span>Fale Conosco — resposta rápida!</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+
+            <!-- Email -->
+            <a
+              href="mailto:estudio.bychar@gmail.com"
+              class="contact-card"
+              aria-label="Enviar e-mail para estudio.bychar@gmail.com"
+            >
+              <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m2 7 10 7 10-7"/>
+              </svg>
+              <div>
+                <strong>E-mail</strong>
+                <span>estudio.bychar@gmail.com</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/by.char.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+              aria-label="Visitar perfil no Instagram — abre em nova aba"
+            >
+              <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+              <div>
+                <strong>Instagram</strong>
+                <span>@by.char.studio</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+
+            <!-- Itch.io -->
+            <a
+              href="https://itch.io/profile/c4mb3rly2004"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+              aria-label="Ver perfil na Itch.io — abre em nova aba"
+            >
+              <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                <path d="M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+                <path d="M8 15V9l4 3 4-3v6" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <strong>Itch.io</strong>
+                <span>c4mb3rly2004</span>
+              </div>
+              <span class="contact-card__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════ FOOTER ═══════════════════════════════════ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo" aria-label="By Char Studio — Topo da página">
+            <span class="nav__logo-icon" aria-hidden="true">⬡</span>
+            <span class="nav__logo-text">By<strong>Char</strong>Studio</span>
+          </a>
+          <p>Criatividade que entrega resultados.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Links rápidos do rodapé">
+          <ul role="list">
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__social" aria-label="Redes sociais">
+          <a
+            href="https://www.instagram.com/by.char.studio"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a
+            href="https://itch.io/profile/c4mb3rly2004"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Itch.io"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <path d="M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+              <path d="M8 15V9l4 3 4-3v6" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a
+            href="mailto:estudio.bychar@gmail.com"
+            aria-label="E-mail"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m2 7 10 7 10-7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          &copy; <span id="year"></span> By Char Studio &mdash;
+          Larissa Ember &amp; Wemile Oliveira. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp floating button -->
+    <!-- 
+      NOTA: Substitua "5500000000000" pelo número WhatsApp Business real
+      no formato: 55 (Brasil) + DDD + número, sem espaços ou símbolos.
+      Exemplo: 5511999990000
+    -->
+    <a
+      href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1%2C+vim+pelo+site+do+By+Char+Studio+e+gostaria+de+saber+mais+sobre+os+servi%C3%A7os!"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+      aria-label="Fale Conosco pelo WhatsApp — abre em nova aba"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      <span class="whatsapp-float__label">Fale Conosco</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
